@@ -32,27 +32,26 @@ class _MainScreenState extends State<MainScreen> {
         backgroundColor: AppTheme.surfaceColor,
         indicatorColor: AppTheme.primaryColor.withValues(alpha: 0.2),
         destinations: [
-        NavigationDestination(
-          icon: const Icon(Icons.grid_4x4_outlined),
-          selectedIcon: const Icon(Icons.grid_4x4, color: AppTheme.primaryColor),
-          label: 'Matrix',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.today_outlined),
-          selectedIcon: const Icon(Icons.today, color: AppTheme.primaryColor),
-          label: 'Agenda',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.folder_outlined),
-          selectedIcon: const Icon(Icons.folder, color: AppTheme.primaryColor),
-          label: 'Projects',
-        ),
-        NavigationDestination(
-          icon: const Icon(Icons.pie_chart_outline),
-          selectedIcon: const Icon(Icons.pie_chart, color: AppTheme.primaryColor),
-          label: 'Stats',
-        ),
-
+          NavigationDestination(
+            icon: const Icon(Icons.grid_view_outlined),
+            selectedIcon: const Icon(Icons.grid_view, color: AppTheme.primaryColor),
+            label: 'Matrix',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.calendar_today_outlined),
+            selectedIcon: const Icon(Icons.calendar_today, color: AppTheme.primaryColor),
+            label: 'Agenda',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.group_outlined),
+            selectedIcon: const Icon(Icons.group, color: AppTheme.primaryColor),
+            label: 'Delegate',
+          ),
+          NavigationDestination(
+            icon: const Icon(Icons.insights_outlined),
+            selectedIcon: const Icon(Icons.insights, color: AppTheme.primaryColor),
+            label: 'Analytics',
+          ),
         ],
       ),
     );
